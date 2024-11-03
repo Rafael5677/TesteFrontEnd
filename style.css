@@ -1,0 +1,303 @@
+body{
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family:"arial";
+}
+li{
+    display: inline-block;
+    margin:20px;
+   
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+} 
+ 
+h1{
+    color:#004AAD;
+    font-weight: 200;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:20; 
+}
+main{
+    display:flex;
+    flex-direction: column;
+    margin-top:50px;
+}
+h2{
+    color:#2BC866;
+    font-weight: 200px;
+    font-size: 50px;
+    margin: auto;
+    align-items: center;
+}
+a{
+    color:#004AAD;
+    font-size:20px;
+    text-decoration: none;
+    
+    
+    
+}
+a:hover{
+    color:#1A9047;
+    transition:0.3;
+}
+
+#texto{
+    float: left;
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 500px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+#botao{
+    
+    background-color: grey; 
+    color:white;
+    padding:10px;
+    margin-top: 30px;
+    margin-bottom: 250px;
+    width: 120px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    
+    
+}
+#botao:hover{
+    
+    background-color:red; 
+    color:black;
+    
+    
+}
+#Entrar{
+    color: #1A9047;
+    border:2px solid #1A9047;
+    padding:12px;
+    border-radius: 20px;
+    margin-left:420px;
+    
+}
+#Entrar:hover{
+    color: #004AAD;
+    border:2px solid #004AAD;
+    background-color: #1A9047;
+    transition: 0.5s;
+}
+#Cadastrar{
+    width: 200px;
+    color:white;
+    background-color: #1A9047;
+    border:2px solid #699ABF;
+    padding:12px;
+    border-radius: 20px;
+}
+#Cadastrar:hover{
+    color:black;
+    background-color: #004AAD;
+    border:2px solid #004AAD;
+    transition: 0.5s;
+    
+}
+#imagem_inicial{
+    display: block;
+    margin: auto;
+}
+/*Página de suporte*/
+
+#texto1{
+    text-align: center;
+}
+  
+#foto1{
+    width: 300px;
+    margin-top:120px;
+    
+    
+    
+}
+#foto2{
+    width: 300px;
+    margin: auto;
+    margin-top:-270px;
+
+}
+#foto3{
+    width: 300px;
+    margin-left:1500px;
+    margin-top:-280px;
+    
+    
+}
+#legenda1{
+    margin-left: 50px;
+    color: #1A9047;
+}
+#legenda2{
+    color: #1A9047;
+    margin-left: 820px;
+    margin-top:-50px;
+}
+#legenda3{
+    color: #1A9047;
+    margin-left: 1560px;
+    margin-top:-50px;
+}
+#desc1{
+    width: 300px;
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+#desc2{
+    width: 300px;
+    text-align: center;
+    margin-left: 810px;
+    margin-top: -90px;
+
+}
+#desc3{
+    width: 300px;
+    text-align: center;
+    margin-left: 1500px;
+    margin-top: -90px;
+
+}
+button{
+    border-radius: 10px;
+    height: 40px;
+    width: 180px;
+    background-color: #1A9047;
+    color:white;
+    display: block;
+    margin:auto;
+
+
+}
+button:hover{
+    background-color: #004AAD;
+    color:white;
+    
+
+
+}
+#final{
+    color:#2BC866;
+    font-weight: 200px;
+    width: 1300px;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+/*Parceiros*/
+#back_back{
+    display: block;
+    background-color: #2BC866;
+    width: 1900px;
+    height: 700px;
+   
+    
+
+}
+#back{
+    width: 600px;
+    display: flex;
+    margin-left: 1000px;
+    margin-top: -400px;
+}
+
+#titulo2{
+    display: block;
+    color: white;
+    line-height: 50px;
+    width: 500px;
+    font-size: 30px;
+    margin-left: 450px;
+    
+    
+    
+}
+#caixa_leg4{
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 300px;
+}
+#legenda4{
+    text-align: justify;
+    color: white;
+}
+/*ajuda*/
+#box_ajuda{
+    width:600px;
+    margin-left: 350px;
+}
+#titulo3{
+    margin-left: 600px;
+    font-size: 40px;
+}
+#caixa_titulo3{
+    width: 1000px;    
+    margin-left: 400px;
+    margin-top: -200px;
+}
+#legenda5{
+    margin-left:1000px;
+    margin-top:30px ;
+    font-size: 20px;
+}
+#esperando{
+    width: 170px;
+    height:400px;
+    padding:40px;
+    border:2px solid #2BC866;
+    border-radius: 5px;
+    margin-top: 180px;
+    margin-left:300px;
+}
+#envie{
+        display: block;
+        width: 170px;
+        height:400px;
+        padding:40px;
+        border:2px solid #2BC866;
+        border-radius: 5px;
+        margin-top: -482px;
+        margin-left:600px;
+    
+}
+#compre{
+        width: 170px;
+        height:400px;
+        padding:40px;
+        border:2px solid #2BC866;
+        border-radius: 5px;
+        margin-top: -482px;
+        margin-left:900px;
+}
+#pagar{
+        width: 170px;
+        height:400px;
+        padding:40px;
+        border:2px solid #2BC866;
+        border-radius: 5px;
+        margin-top: -482px;
+        margin-left:1200px;
+}
+#caixa_svg{
+    color: #2BC866;
+    width: 80px;
+}
